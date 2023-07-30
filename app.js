@@ -1,4 +1,4 @@
-VANTA.CELLS({
+VANTA.BIRDS({
 	el: "#antr",
 	mouseControls: true,
 	touchControls: true,
@@ -6,7 +6,14 @@ VANTA.CELLS({
 	minHeight: 200.00,
 	minWidth: 200.00,
 	scale: 1.00,
-	color1: 0x8c0031,
-	color2: 0xffed00,
-	size: 0.70
+	scaleMobile: 1.00,
+	backgroundColor:0xedf9fd,
+	color1: 0x4a4a4a,
+	color2: 0xffffff,
+	birdSize: 0.70,
+	wingSpan: 40.00,
+	speedLimit: 3.00,
+	separation: 100.00,
+	alignment: 45.00,
+	cohesion: 100.00
   })
